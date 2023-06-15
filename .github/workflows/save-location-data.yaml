@@ -1,0 +1,35 @@
+name: Save Location Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      uuid:
+        description: 'UUID'
+        required: true
+      location-data:
+        description: 'Location Data'
+        required: true
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create new website
+        run: |
+          cp -R template $dir_name
+          cd $dir_name
+          echo "${{ github.event.inputs.location-data }}" > locations.json
+        env:
+          dir_name: ${{ github.event.inputs.uuid }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "Add location data for ${{ github.event.inputs.name }}"
+          git push
