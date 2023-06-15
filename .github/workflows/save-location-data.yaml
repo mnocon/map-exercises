@@ -10,6 +10,9 @@ on:
         description: 'Location Data'
         required: true
 
+permissions:
+  contents: write
+
 jobs:
   commit:
     runs-on: ubuntu-latest
