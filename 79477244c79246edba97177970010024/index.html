@@ -53,6 +53,10 @@
                             infoWindow.open(map, marker);
                         });
                     });
+                })
+                .then(() => {
+                    console.log('opening all markers');
+                    document.querySelectorAll('area[title]').forEach(e => e.click())
                 });
         }
     </script>
