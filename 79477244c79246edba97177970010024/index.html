@@ -17,6 +17,25 @@
     <div id="map"></div>
 
     <script>
+        function waitForElm(selector) {
+            return new Promise(resolve => {
+                if (document.querySelector(selector)) {
+                    return resolve(document.querySelector(selector));
+                }
+
+                const observer = new MutationObserver(mutations => {
+                    if (document.querySelector(selector)) {
+                        resolve(document.querySelector(selector));
+                        observer.disconnect();
+                    }
+                });
+
+                observer.observe(document.body, {
+                    childList: true,
+                    subtree: true
+                });
+            });
+        }
         // Initialize and display the map
         function initMap() {
             // Load locations from JSON file
@@ -55,8 +74,11 @@
                     });
                 })
                 .then(() => {
-                    console.log('opening all markers');
-                    document.querySelectorAll('area[title]').forEach(e => e.click())
+                    waitForElm('area[title]').then((elm) => {
+                        console.log('Element is ready');
+                        console.log('opening all markers');
+                        document.querySelectorAll('area[title]').forEach(e => e.click())
+                    });
                 });
         }
     </script>
