@@ -25,7 +25,7 @@ jobs:
         run: |
           cp -R template $dir_name
           cd $dir_name
-          echo "${{ github.event.inputs.location-data }}" > locations.json
+          echo '${{ github.event.inputs.location-data }}' > locations.json
         env:
           dir_name: ${{ github.event.inputs.uuid }}
 
