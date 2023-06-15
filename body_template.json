@@ -1,0 +1,148 @@
+{
+    "name": "{{uuid}}",
+    "centerCoordinates": {
+        "lat": {{9.geometry.location.lat}},
+        "lng": {{9.geometry.location.lng}}
+    },
+    "locations": [
+        {
+            "name": "Mieszkanie",
+            "coordinates": {
+                "lat": {{9.geometry.location.lat}},
+                "lng": {{9.geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{8.body.results[1].name}} - {{8.body.results[1].rating}}⭐️",
+            "coordinates": {
+                "lat": {{8.body.results[1].geometry.location.lat}}
+                "lng": {{8.body.results[1].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{8.body.results[2].name}} - {{8.body.results[2].rating}}⭐️",
+            "coordinates": {
+                "lat": {{8.body.results[2].geometry.location.lat}}
+                "lng": {{8.body.results[2].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{8.body.results[3].name}} - {{8.body.results[3].rating}}⭐️",
+            "coordinates": {
+                "lat": {{8.body.results[3].geometry.location.lat}}
+                "lng": {{8.body.results[3].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{8.body.results[4].name}} - {{8.body.results[4].rating}}⭐️",
+            "coordinates": {
+                "lat": {{8.body.results[4].geometry.location.lat}}
+                "lng": {{8.body.results[4].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{8.body.results[5].name}} - {{8.body.results[5].rating}}⭐️",
+            "coordinates": {
+                "lat": {{8.body.results[5].geometry.location.lat}}
+                "lng": {{8.body.results[5].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{42.body.results[1].name}} - {{42.body.results[1].rating}}⭐️",
+            "coordinates": {
+                "lat": {{42.body.results[1].geometry.location.lat}}
+                "lng": {{42.body.results[1].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{42.body.results[2].name}} - {{42.body.results[2].rating}}⭐️",
+            "coordinates": {
+                "lat": {{42.body.results[2].geometry.location.lat}}
+                "lng": {{42.body.results[2].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{42.body.results[3].name}} - {{42.body.results[3].rating}}⭐️",
+            "coordinates": {
+                "lat": {{42.body.results[3].geometry.location.lat}}
+                "lng": {{42.body.results[3].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{57.body.results[1].name}} - {{57.body.results[1].rating}}⭐️",
+            "coordinates": {
+                "lat": {{57.body.results[1].geometry.location.lat}}
+                "lng": {{57.body.results[1].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{57.body.results[2].name}} - {{57.body.results[2].rating}}⭐️",
+            "coordinates": {
+                "lat": {{57.body.results[2].geometry.location.lat}}
+                "lng": {{57.body.results[2].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{57.body.results[3].name}} - {{57.body.results[3].rating}}⭐️",
+            "coordinates": {
+                "lat": {{57.body.results[3].geometry.location.lat}}
+                "lng": {{57.body.results[3].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{62.body.results[1].name}} - {{62.body.results[1].rating}}⭐️",
+            "coordinates": {
+                "lat": {{62.body.results[1].geometry.location.lat}}
+                "lng": {{62.body.results[1].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{62.body.results[2].name}} - {{62.body.results[2].rating}}⭐️",
+            "coordinates": {
+                "lat": {{62.body.results[2].geometry.location.lat}}
+                "lng": {{62.body.results[2].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{62.body.results[3].name}} - {{62.body.results[3].rating}}⭐️",
+            "coordinates": {
+                "lat": {{62.body.results[3].geometry.location.lat}}
+                "lng": {{62.body.results[3].geometry.location.lng}}
+            }
+        }{
+            "name": "{{75.body.results[1].name}} - {{75.body.results[1].rating}}⭐️",
+            "coordinates": {
+                "lat": {{75.body.results[1].geometry.location.lat}}
+                "lng": {{75.body.results[1].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{75.body.results[2].name}} - {{75.body.results[2].rating}}⭐️",
+            "coordinates": {
+                "lat": {{75.body.results[2].geometry.location.lat}}
+                "lng": {{75.body.results[2].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{75.body.results[3].name}} - {{75.body.results[3].rating}}⭐️",
+            "coordinates": {
+                "lat": {{75.body.results[3].geometry.location.lat}}
+                "lng": {{75.body.results[3].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{75.body.results[4].name}} - {{75.body.results[4].rating}}⭐️",
+            "coordinates": {
+                "lat": {{75.body.results[4].geometry.location.lat}}
+                "lng": {{75.body.results[4].geometry.location.lng}}
+            }
+        },
+        {
+            "name": "{{75.body.results[5].name}} - {{75.body.results[5].rating}}⭐️",
+            "coordinates": {
+                "lat": {{75.body.results[5].geometry.location.lat}}
+                "lng": {{75.body.results[5].geometry.location.lng}}
+            }
+        }
+    ]
+}
