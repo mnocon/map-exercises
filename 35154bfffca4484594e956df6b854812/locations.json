@@ -1,1 +1,128 @@
-{"name":"Osiedle Park Poezji","centerCoordinates":{"lat":50.3356529,"lng":18.6424273},"locations":[{"name":"Mieszkanie","coordinates":{"lat":50.3356529,"lng":18.6424273}},{"name":"Lidl-4.3⭐️","coordinates":{"lat":50.3362415,"lng":18.6428244}},{"name":"Biedronka-3.8⭐️","coordinates":{"lat":50.3399233,"lng":18.6245262}},{"name":"-⭐️","coordinates":{"lat":,"lng":}},{"name":"-⭐️","coordinates":{"lat":,"lng":}},{"name":"-⭐️","coordinates":{"lat":,"lng":}},{"name":"Park-4⭐️","coordinates":{"lat":50.3400506,"lng":18.6199398}},{"name":"Park z drogą rowerową-3⭐️","coordinates":{"lat":50.3230521,"lng":18.6591266}},{"name":"Park Szwajcaria w Gliwicach-4.8⭐️","coordinates":{"lat":50.30860449999999,"lng":18.6343277}},{"name":"Boisko-1⭐️","coordinates":{"lat":50.33535639999999,"lng":18.6387184}},{"name":"Siłownia Leśna-4.7⭐️","coordinates":{"lat":50.33166120000001,"lng":18.6496031}},{"name":"CR - Med Gliwice-5⭐️","coordinates":{"lat":50.3417728,"lng":18.6276281}},{"name":"Kościół rzymskokatolicki pw. św Anny-4.4⭐️","coordinates":{"lat":50.3387664,"lng":18.6416542}},{"name":"Świadkowie Jehowy-⭐️","coordinates":{"lat":50.3373753,"lng":18.6330149}},{"name":"Kościół im. Marcina Lutra-4.3⭐️","coordinates":{"lat":50.34329029999999,"lng":18.6230291}},{"name":"Przyszówka Osiedle Literatów-1⭐️","coordinates":{"lat":50.33427500000001,"lng":18.641953}},{"name":"Przyszówka Osiedle Literatów-⭐️","coordinates":{"lat":50.33388979999999,"lng":18.6419884}},{"name":"Przyszówka Osiedle Literatów-5⭐️","coordinates":{"lat":50.333505,"lng":18.642023}},{"name":"Przyszówka Kaplica-⭐️","coordinates":{"lat":50.3382657,"lng":18.6405266}},{"name":"Przyszówka Kaplica-4.5⭐️","coordinates":{"lat":50.33842500000001,"lng":18.640087}}]}
+{
+    "name": "Osiedle Park Poezji",
+    "centerCoordinates": {
+        "lat": 50.3356529,
+        "lng": 18.6424273
+    },
+    "locations": [
+        {
+            "name": "Mieszkanie",
+            "coordinates": {
+                "lat": 50.3356529,
+                "lng": 18.6424273
+            }
+        },
+        {
+            "name": "Lidl-4.3⭐️",
+            "coordinates": {
+                "lat": 50.3362415,
+                "lng": 18.6428244
+            }
+        },
+        {
+            "name": "Biedronka-3.8⭐️",
+            "coordinates": {
+                "lat": 50.3399233,
+                "lng": 18.6245262
+            }
+        },
+        {
+            "name": "Park-4⭐️",
+            "coordinates": {
+                "lat": 50.3400506,
+                "lng": 18.6199398
+            }
+        },
+        {
+            "name": "Park z drogą rowerową-3⭐️",
+            "coordinates": {
+                "lat": 50.3230521,
+                "lng": 18.6591266
+            }
+        },
+        {
+            "name": "Park Szwajcaria w Gliwicach-4.8⭐️",
+            "coordinates": {
+                "lat": 50.30860449999999,
+                "lng": 18.6343277
+            }
+        },
+        {
+            "name": "Boisko-1⭐️",
+            "coordinates": {
+                "lat": 50.33535639999999,
+                "lng": 18.6387184
+            }
+        },
+        {
+            "name": "Siłownia Leśna-4.7⭐️",
+            "coordinates": {
+                "lat": 50.33166120000001,
+                "lng": 18.6496031
+            }
+        },
+        {
+            "name": "CR - Med Gliwice-5⭐️",
+            "coordinates": {
+                "lat": 50.3417728,
+                "lng": 18.6276281
+            }
+        },
+        {
+            "name": "Kościół rzymskokatolicki pw. św Anny-4.4⭐️",
+            "coordinates": {
+                "lat": 50.3387664,
+                "lng": 18.6416542
+            }
+        },
+        {
+            "name": "Świadkowie Jehowy-⭐️",
+            "coordinates": {
+                "lat": 50.3373753,
+                "lng": 18.6330149
+            }
+        },
+        {
+            "name": "Kościół im. Marcina Lutra-4.3⭐️",
+            "coordinates": {
+                "lat": 50.34329029999999,
+                "lng": 18.6230291
+            }
+        },
+        {
+            "name": "Przyszówka Osiedle Literatów-1⭐️",
+            "coordinates": {
+                "lat": 50.33427500000001,
+                "lng": 18.641953
+            }
+        },
+        {
+            "name": "Przyszówka Osiedle Literatów-⭐️",
+            "coordinates": {
+                "lat": 50.33388979999999,
+                "lng": 18.6419884
+            }
+        },
+        {
+            "name": "Przyszówka Osiedle Literatów-5⭐️",
+            "coordinates": {
+                "lat": 50.333505,
+                "lng": 18.642023
+            }
+        },
+        {
+            "name": "Przyszówka Kaplica-⭐️",
+            "coordinates": {
+                "lat": 50.3382657,
+                "lng": 18.6405266
+            }
+        },
+        {
+            "name": "Przyszówka Kaplica-4.5⭐️",
+            "coordinates": {
+                "lat": 50.33842500000001,
+                "lng": 18.640087
+            }
+        }
+    ]
+}
